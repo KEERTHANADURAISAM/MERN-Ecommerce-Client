@@ -164,7 +164,7 @@ const OrderDetailsPage = () => {
                         <Row>
                           <Col md={2}>
                             <Image
-                              src={item.image}
+                              src={`https://mern-ecommerce-server-2grz.onrender.com/${item.image}`}
                               alt={item.name}
                               fluid
                               rounded
