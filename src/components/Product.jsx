@@ -24,7 +24,7 @@ const Product = ({ product }) => {
       >
         <Card.Img
           variant='top'
-          src={product.image}
+          src={`https://mern-ecommerce-server-2grz.onrender.com/${product.image}`}
           style={{ height: '200px', objectFit: 'contain' }}
         />
         <Card.Body>
